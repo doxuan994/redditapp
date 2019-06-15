@@ -9,6 +9,11 @@
         <Subreddits category="sport"/>
         <Subreddits category="art"/>
         <Subreddits category="funny"/>
+
+
+        <Subreddits category="memes"/>
+
+
     </div>
 </template>
 

@@ -1,12 +1,9 @@
 <template>
     <div class="subreddits container">
         <h2>{{category | capitalize}}</h2>
-
         <ul class="item-list">
             <li v-for="post in subreddits">
-
                 <Subreddit v-bind:item="post" />
-
             </li>
         </ul>
     </div>

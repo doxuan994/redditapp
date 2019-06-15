@@ -1,27 +1,13 @@
 <template>
     <div class="subreddit">
-
-
         <a v-bind:href="makeUrl(item.data.permalink)" v-bind:style="makeImage(item.data.thumbnail)" target="_blank" class="thumbnail"></a>
-
-
         <div class="details">
             <a :href="makeUrl(item.data.permalink)" :title="item.data.title" target="_blank" class="title">
-
                 {{item.data.title | truncate}}
-
             </a>
-
             <div class="stats">
-
-
                 <i class="far fa-thumbs-up"></i>{{item.data.score}}
-
                 <i class="far fa-comment-alt"></i>{{item.data.num_comments}}
-
-
-
-
             </div>
         </div>
 
